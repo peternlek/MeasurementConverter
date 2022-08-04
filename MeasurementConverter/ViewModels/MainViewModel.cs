@@ -93,7 +93,6 @@ namespace MeasurementConverter.ViewModels
                 }
 
                 OnPropertyChanged(nameof(Error));
-                OnPropertyChanged(nameof(IsValid));
 
                 return error;
             }
